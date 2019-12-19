@@ -51,7 +51,8 @@ public LOG(){
    lblcod.setBounds(170,65,100,25);
    
    txtNome.setBounds(170,40,320, 27);       
-   txtcod.setBounds(170,88,320,27);         
+   txtcod.setBounds(170,88,320,27); 
+   txtNome.setToolTipText("Andre");
    
    butAceder.setBounds(180,135,130,27);
    butCancelar.setBounds(350,135,130,27);

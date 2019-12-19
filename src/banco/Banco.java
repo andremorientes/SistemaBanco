@@ -419,7 +419,7 @@ static final int xPosition = 30, yPosition = 30;
 JPanel Painel = new JPanel();
 Container  c = getContentPane();
  
-JLabel lblNUIT = new JLabel("NUIT:");
+JLabel lblNUIT = new JLabel("NUIT do Cliente:");
 JLabel lblnome = new JLabel("Nome do Cliente:");
 JLabel lblsexo = new JLabel("Sexo:");
 JLabel lblDataN = new JLabel("Data de Nascimento: ");
@@ -606,7 +606,7 @@ public Cliente(Vector d) {
    lblDataN.setBounds(40,170, 290,25);
    lblContacto.setBounds(40,210, 290,25);
    
-   txtNUIT.setBounds(100,50,350,23);
+  txtNUIT.setBounds(100,50,350,23);
    txtnome.setBounds(150,90,300,23);
    txtsexo.setBounds(100,130, 250,23);
    txtDataN.setBounds(170,170, 240,23);
