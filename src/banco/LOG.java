@@ -52,7 +52,8 @@ public LOG(){
    
    txtNome.setBounds(170,40,320, 27);       
    txtcod.setBounds(170,88,320,27); 
-   txtNome.setToolTipText("Andre");
+   txtNome.setToolTipText("Introduza o Nome do Usuario");
+   txtcod.setToolTipText("Introduza a senha");
    
    butAceder.setBounds(180,135,130,27);
    butCancelar.setBounds(350,135,130,27);
